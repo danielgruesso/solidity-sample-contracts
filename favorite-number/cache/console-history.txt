@@ -1,0 +1,12 @@
+console.log("Favorite number:", favoriteNumber.toString());
+const favoriteNumber = await contract.getFavoriteNumber();
+console.log("Favorite number set to 42");
+await setTx.wait();
+const setTx = await contract.setFavoriteNumber(42);
+// Interact with the contract's functions
+const contract = await ContractFactory.attach(contractAddress);
+const ContractFactory = await ethers.getContractFactory("FavoriteNumber");
+// Replace with your contract's name
+const contractAddress = "0x52952bF9c285d7a79777e3550AB94477F40DDc36";
+// Replace with your contract's deployed address
+const { ethers } = require("hardhat");

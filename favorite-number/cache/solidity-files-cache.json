@@ -1,0 +1,115 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/daniel/projects/favorite-number/contracts/FavoriteNumber.sol": {
+      "lastModificationDate": 1722974253506,
+      "contentHash": "1eff398ef73f1aaec85045bd49f79344",
+      "sourceName": "contracts/FavoriteNumber.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "FavoriteNumber"
+      ]
+    },
+    "/Users/daniel/projects/favorite-number/contracts/lib/MpcCore.sol": {
+      "lastModificationDate": 1722974253507,
+      "contentHash": "c9489b9d113eb0f0c7874e62ac9b3f4e",
+      "sourceName": "contracts/lib/MpcCore.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MpcInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "MpcCore"
+      ]
+    },
+    "/Users/daniel/projects/favorite-number/contracts/lib/MpcInterface.sol": {
+      "lastModificationDate": 1722974253508,
+      "contentHash": "57410e68754f1ee0e96115743289d5a1",
+      "sourceName": "contracts/lib/MpcInterface.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "ExtendedOperations"
+      ]
+    }
+  }
+}
