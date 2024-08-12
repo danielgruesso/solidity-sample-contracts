@@ -1,10 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-contract AgeStorage {
+import "./DataPrivacyFramework.sol";
+
+contract AgeStorage is DataPrivacyFramework {
     uint256 private _age;
 
-    constructor() {}
+    constructor() DataPrivacyFramework(false, false) {}
 
     function getAge() public view returns (uint256) {
         return _age;
